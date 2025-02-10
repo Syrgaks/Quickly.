@@ -1,0 +1,94 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.containner{
+ margin: auto;
+ width:1480px ;
+ height:107px ;
+ background-color: #F8F9FA ;
+}
+
+.container{
+    margin: auto;
+    width: 1480px;
+    height: 547px;
+}
+
+
+.signUp-btn {
+    width: 136px;
+    height: 58px;
+    background-color: #20484F;
+    border-radius: 8px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 70px;
+    font-size: 18px;
+}
+
+.signUp-btn:hover {
+    background-color: #28606A;
+    transform: scale(1.05);
+}
+
+.signUp-btn:active {
+    transform: scale(0.95);
+}
+
+
+
+.h1{
+  font-size: 40px; 
+  font-weight: bold; 
+  color: #12263F;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  /* margin-top: 90px; */
+}
+
+.pi{
+  font-size: 18px;
+  color: #072125;
+  line-height: 1.6;
+}
+
+.carf{
+    width: 216px;
+    height: 168px;
+    
+}
+
+.conntainer{
+    margin: auto;
+    width: 1480px;
+    height: 444px;
+
+}
+.containe{
+    margin: auto;
+    width: 1480px;
+    height: 764px;
+}
+
+.contr{
+    margin: auto;
+    width: 1480px;
+    height: 1142px;
+    background-color: #FAFAFA;
+}
+.card{
+    width: 100%; /* Используй проценты вместо фиксированного размера */
+    max-width: 1400px; /* Ограничь максимальную ширину */
+    height: auto; /* Убери фиксированную высоту */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: flex-start; /* Измени, чтобы карточки не центрировались вертикально */
+    gap: 20px; /* Добавь расстояние между карточками */
+    margin: 0 auto; /* Центрируем весь контейнер */
+    padding: 20px; 
+}
