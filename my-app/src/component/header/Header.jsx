@@ -1,6 +1,6 @@
 import React from 'react' 
 import { Link } from 'react-router-dom'
-
+import './Header.css'
  
 function Header() { 
   return ( 
@@ -27,38 +27,36 @@ function Header() {
       </nav> 
        
        <div>
-
-       <button
+        <a href="../signUp/SignUp.jsx"> <button
   
-  style={{
-    backgroundColor: "#AEE7E8",
-    color: "#2C4E50",
-    border: "none",
-    borderRadius: "12px",
-    padding: "10px 20px",
-    fontSize: "16px",
-    fontWeight: "bold",
-    cursor: "pointer",
-    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-    transition: "all 0.3s ease-in-out",
-  }}
-  onMouseEnter={(e) => {
-    e.target.style.backgroundColor = "#89D5D7";
-    e.target.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.2)";
-    e.target.style.transform = "scale(1.05)";
-  }}
-  onMouseLeave={(e) => {
-    e.target.style.backgroundColor = "#AEE7E8";
-    e.target.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
-    e.target.style.transform = "scale(1)";
-  }}
->
-  Sign up
+          style={{
+            backgroundColor: "#AEE7E8",
+            color: "#2C4E50",
+            border: "none",
+            borderRadius: "12px",
+            padding: "10px 20px",
+            fontSize: "16px",
+            fontWeight: "bold",
+            cursor: "pointer",
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+            transition: "all 0.3s ease-in-out",
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.backgroundColor = "#89D5D7";
+            e.target.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.2)";
+            e.target.style.transform = "scale(1.05)";
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.backgroundColor = "#AEE7E8";
+            e.target.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
+            e.target.style.transform = "scale(1)";
+          }}>
+      Sign up
 </button>
 
-   
-     
-       <span
+   </a>
+      
+     <a href="../login/LogIn.jsx"><span
   className="spanbtn"
   style={{
     color: "#FFFFFF",
@@ -93,7 +91,8 @@ function Header() {
     }}
     className="underline"
   ></span>
-</span>
+</span></a>
+       
 
         </div>
     </div> 

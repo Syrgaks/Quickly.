@@ -68,11 +68,10 @@ export default function Products() {
       <img src={topo2} style={{position:'relative', left:'770px'}}/>
       <img src={topo1} style={{position:'relative', left:'220px', top:'-40px'}}/>
       <img src={topo} style={{position:'relative', left:'215px', top:'-360px'}}/>
-      
-     <img src={topo3} style={{position:'relative', right:'750px', top:'-220px'}}/>
-     <img src={topo4} style={{position:'relative', left:'120px', top:'-190px'}}/>
-     <img src={topo5} style={{position:'relative', left:'190px', top:'-190px'}} />
-     <img src={topo6} style={{position:'relative', top:'-370px', right:'400px'}}/>
+      <img src={topo3} style={{position:'relative', right:'750px', top:'-220px'}}/>
+      <img src={topo4} style={{position:'relative', left:'120px', top:'-190px'}}/>
+      <img src={topo5} style={{position:'relative', left:'190px', top:'-190px'}} />
+      <img src={topo6} style={{position:'relative', top:'-370px', right:'400px'}}/>
      
      
 
