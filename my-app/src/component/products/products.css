@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hh1{
+    font-size: 64px;
+    color: #072125;
+    line-height: 76.8px;
+    font-weight: 700;
+    font-size: 4rem;
+    
+}
+
+.button{
+    background-color: #20484F;
+    border-radius: 8px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 70px;
+    font-size: 18px;
+    border: 1px ;
+    
+}
+
+.button:hover{
+    background-color: #474949;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button:active{
+    transform: scale(0.95);
+}
+
+.containner{
+    margin: auto;
+    width:1480px ;
+    height:107px ;
+    background-color: #F8F9FA ;
+   }

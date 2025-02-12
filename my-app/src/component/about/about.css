@@ -19,8 +19,6 @@
 
 
 .signUp-btn {
-    width: 136px;
-    height: 58px;
     background-color: #20484F;
     border-radius: 8px;
     color: aliceblue;
@@ -28,16 +26,19 @@
     transition: all 0.3s ease-in-out;
     margin-top: 70px;
     font-size: 18px;
+    border: 1px ;
 }
 
 .signUp-btn:hover {
-    background-color: #28606A;
-    transform: scale(1.05);
+    background-color: #474949;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
 }
 
-.signUp-btn:active {
+.signUp-btn:active{
     transform: scale(0.95);
-}
+}; 
 
 
 
@@ -90,5 +91,12 @@
     align-items: flex-start; /* Измени, чтобы карточки не центрировались вертикально */
     gap: 20px; /* Добавь расстояние между карточками */
     margin: 0 auto; /* Центрируем весь контейнер */
-    padding: 20px; 
+    padding: 300px; 
+    margin-top: -300px;
+}
+.contor{
+    margin: auto;
+    width: 1480px; 
+    height: 545px;
+
 }

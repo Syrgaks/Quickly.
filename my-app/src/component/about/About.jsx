@@ -14,6 +14,9 @@ import foto3 from '../../assets/foto3.png'
 import foto4 from '../../assets/foto4.png'
 import foto5 from '../../assets/foto5.png'
 import foto6 from '../../assets/foto6.png'
+import foto7 from '../../assets/Image.svg'
+import foto8 from '../../assets/Decoration.svg'
+import foto9 from '../../assets/Frame14.svg'
 import Blog from '../blog/Blog'; // Путь должен быть правильным
 
 
@@ -41,7 +44,7 @@ export default function About() {
             We wanted to build a company that <br />
             you will love to work with and <br /> connect to
           </h1>
-          <p className='pi'>
+          <p className='pi' style={{position:'relative', top:'20px'}} >
             We’re doing things bigly, I mean really quite big. The way we operate
             is different <br /> from other companies because we disrupt. We break the
             code, we crack the <br /> code as well.
@@ -77,7 +80,7 @@ export default function About() {
             I want to fly like an angel flare on a ten feet snare I want to <br /> dance until the sun comes up I want to fight your cousin.
           </p>
 
-          <button className='signUp-btn'>Sign Up</button>
+          <button className='signUp-btn'style={{width:'136px', height:'58px'}}>Sign Up</button>
         </div>
 
         <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
@@ -95,6 +98,7 @@ export default function About() {
           />
         </div>
       </div>
+
       <div className='conntainer'>
      <img src={surot3} width={1480}/>
     </div>
@@ -132,16 +136,74 @@ export default function About() {
       <div className='contr'>
       <h1 className='h1' style={{textAlign:'center', }}>A team of exceptional people</h1>
       <div className='card'>
-      <Blog  image={foto1} />
-      <Blog text="Nurlan Saburov" col="Казахский комик, юморист" image={foto2} />  
-      <Blog text="Dmitry Bivol" col="Российский боксёр-профессионал" image={foto4} />  
-      <Blog text="Canelo Álvarez" col="Мексиканский профессиональный боксёр" image={foto5} />  
-      <Blog text="Matrang" col="Артист, русский певец" image={foto3} />  
-      <Blog text="Akzhol Makhmudov" col="Киргизский борец-любитель" image={foto6} />
+      <Blog text='Roberta Flack' col='Chief Innovator' image={foto1} />
+      <Blog text="Robert Wilts" col="Head of HR" image={foto5} />  
+      <Blog text="Charlie Roberts" col="Chief Innovation Officer" image={foto4} />  
+      <Blog text="Christian Heart" col="UX Writing Lead" image={foto6} />  
+      <Blog text="Tommy Wisby" col="Chief of Cutlery" image={foto2} />  
+      <Blog text="Teddy Pdergrass" col="Legendary Song Writer" image={foto3} />
+      <button className='signUp-btn' style={{ width:'243px', height:'58px', margin:'auto', marginTop:'40px'}}>See open vacancies</button>
+      </div>
+      </div>
+
+      <div className='contor'>
+      <h1 style={{textAlign:'center', fontSize:'111px', color:'#B8E4DA', marginTop:'40px'}}>“</h1>
+      <h1 className='h1'style={{textAlign:'center'}}>Imagine the best product you’ve <br /> used, times it by ten, and you’ll <br /> have something similar</h1>
+      
+      <div
+      style={{
+        width: '216px',
+        height:'55px',
+        display: 'flex',
+        alignItems: 'center',
+        gap:'20px',
+        margin:'auto',
+        marginTop:'50px'
+        
+      }}
+    >
+      <img
+        src={foto7}
+       
+      />
+      <div>
+        <h1 style={{ fontSize: '18px', margin: '0 0 5px 0' }}>Elliot Rosenberg</h1>
+        <h2 style={{ fontSize: '16px', color: '#555', margin: 0 }}>Product Lead</h2>
+      </div>
+    </div> 
+
+    <h1 className='h1' style={{textAlign:'center', borderRadius:'2px', marginTop:'30px'}} > <span style={{color:'#B8E4DA'}}>.</span> . . .</h1>
+      
+      </div>
+
+      <div style={{width:'1480px', height:'405px', margin:'auto', background:'#20484F'}}>
+       <h1 className='h1' style={{ color:'white', marginLeft:'100px', lineHeight:'60px', position:'relative', top:"102px"}}>Sign up for your free trial, with the <br /> world’s best product tool</h1>
+      <button className='signUp-btn' style={{width:'190px', height:'58px',background:"White", color:'black', marginLeft:'1132px', position:'relative', top:'-40px'}}>Start your trial</button>
+      <img src={foto8} style={{marginLeft:'1259px', position:'relative', top:'-267px'}}/>
+      
+      <div style={{ display: 'flex', gap: '20px', position:"relative", top:'-130px', left:'100px'}}>
+  <div style={{ width: '157px', height: '27px', display: 'flex', alignItems: 'center' }}>
+    <img src={foto9} alt="icon" />
+    <h6 style={{ color: 'white', fontSize: '18px', marginLeft: '15px' }}>No obligation</h6>
+  </div>
+  <div style={{ width: '186px', height: '27px', display: 'flex', alignItems: 'center' }}>
+    <img src={foto9} alt="icon" />
+    <h6 style={{ color: 'white', fontSize: '18px', marginLeft: '15px' }}>Free onboarding </h6>
+  </div>
+  <div style={{ width: '177px', height: '27px', display: 'flex', alignItems: 'center' }}>
+    <img src={foto9} alt="icon" />
+    <h6 style={{ color: 'white', fontSize: '18px', marginLeft: '15px' }}>14 day free trial</h6>
+  </div>
+  <div style={{ width: '165px', height: '27px', display: 'flex', alignItems: 'center' }}>
+    <img src={foto9} alt="icon" />
+    <h6 style={{ color: 'white', fontSize: '18px', marginLeft: '15px' }}>Full features</h6>
+  </div>
+</div>
+
 
       </div>
-      </div>
-        
+
+          
     </div>
   );
 }
