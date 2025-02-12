@@ -135,7 +135,7 @@ export default function About() {
     
       <div className='contr'>
       <h1 className='h1' style={{textAlign:'center', }}>A team of exceptional people</h1>
-      <div className='card'>
+      <div className='cardd'>
       <Blog text='Roberta Flack' col='Chief Innovator' image={foto1} />
       <Blog text="Robert Wilts" col="Head of HR" image={foto5} />  
       <Blog text="Charlie Roberts" col="Chief Innovation Officer" image={foto4} />  

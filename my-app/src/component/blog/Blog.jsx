@@ -45,9 +45,9 @@ function Blog({ text, col, image }) {
     }}
   >
     {/* Иконки, замените src на путь к вашим иконкам */}
-    <img src={icon1} alt="Icon 1" style={{  width: '48px', height: '48px' }} />
-    <img src={icon3} alt="Icon 2" style={{  width: '48px', height: '48px' }} />
-    <img src={icon2} alt="Icon 3" style={{  width: '48px', height: '48px' }} />
+    <img src={icon1} alt="Icon 1" style={{  width: '48px', height: '48px', cursor:"pointer"}} />
+    <img src={icon3} alt="Icon 2" style={{  width: '48px', height: '48px', cursor:"pointer"}} />
+    <img src={icon2} alt="Icon 3" style={{  width: '48px', height: '48px', cursor:"pointer"}} />
   </div>
   
 

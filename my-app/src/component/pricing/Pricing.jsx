@@ -88,15 +88,9 @@ export default function Pricing() {
                     <img src={voto} width={1480}/>
              </div>
 
-             <div style={{width:'1480px', height:'421px', margin:'auto', background:'#FFFFFF'}}>
-              <h5 style={{fontSize:'18px', fontWeight:'700', color:'#20484F', position:'relative', top:'68px', left:'587px'}}>Stop wasting time, start saving it</h5>
-              <h1 style={{fontSize:'50px', lineHeight:'60px', fontWeight:'700', position:'relative', top:'119px', left:'316px'}} >Sign up for your free trial, with the <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; world’s best product tool</h1>
-              <button className='button'style={{width:'190px', height:'58px', position:'relative', top:'93px', left:'635px'}}>Start your trial</button>
-             </div>
-
             <div className='containner' style={{background:'white'}}>
-     <h2 style={{fontWeight:'700', fontSize:'40px', color:'#072125', position:'relative', left:'80px', top:'71px'}}>Pricing plans for every team</h2>
-     <p style={{fontSize:'18px',fontWeight:'400', color:'#072125', position:'relative', left:'80px', top:'87px'}}>Democracy. It’s what we see, it’s how we live and what we breathe. Here is <br /> a cup of tea, please won’t you drink it with me.</p>
+     <h2 style={{fontWeight:'700', fontSize:'40px', color:'#072125', position:'relative', left:'120px', top:'71px'}}>Pricing plans for every team</h2>
+     <p style={{fontSize:'18px',fontWeight:'400', color:'#072125', position:'relative', left:'120px', top:'87px'}}>Democracy. It’s what we see, it’s how we live and what we breathe. Here is <br /> a cup of tea, please won’t you drink it with me.</p>
     
             </div>
 
@@ -104,11 +98,18 @@ export default function Pricing() {
       {pricingPlans.map((plan, index) => (
         <PricingCard key={index} {...plan} />
       ))}
-            </div>
-  
+            </div> 
+   
      <div className='containner'>
                  <img src={voto} width={1480} style={{transform:'rotate(180deg)'}}/>
       </div>
-    </div>
+
+      <div style={{width:'1480px', height:'421px', margin:'auto', background:'#FAFAFA'}}>
+              <h5 style={{fontSize:'18px', fontWeight:'700', color:'#20484F', position:'relative', top:'68px', left:'587px'}}>Stop wasting time, start saving it</h5>
+              <h1 style={{fontSize:'50px', lineHeight:'60px', fontWeight:'700', position:'relative', top:'119px', left:'316px'}} >Sign up for your free trial, with the <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; world’s best product tool</h1>
+              <button className='button'style={{width:'190px', height:'58px', position:'relative', top:'93px', left:'635px'}}>Start your trial</button>
+             </div>
+ </div>
+     
   )
 }

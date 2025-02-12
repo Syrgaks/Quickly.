@@ -1,5 +1,5 @@
 .pricing-container {
-    width: 1480px;
+    width: 1300px;
     height: 953px;
     display: flex;
     justify-content: space-between;
@@ -20,8 +20,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    top: 263px;
-    
+    top: 63px;
 }
 
 .bb {
