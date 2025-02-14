@@ -3,6 +3,7 @@ import doto from '../../assets/Divider.png'
 import doto1 from '../../assets/feotor.svg'
 import doto2 from '../../assets/FeatBlocks.svg'
 import doto3 from '../../assets/negr.svg'
+import doto4 from '../../assets/Tabs.svg'
 
 export default function Features() {
   return (
@@ -24,6 +25,12 @@ export default function Features() {
 
       <div style={{width:'1480px', height:'107px', margin:'auto', background:'#FAFAFA'}}>
         <img src={doto} width={1480} style={{transform:'rotate(180deg)'}}/>
+      </div>
+
+      <div style={{width:'1480px', height:'868px', margin:'auto'}}>
+        <img src={doto4} width={1480} />
+        <button className='btnp' style={{width:'201px',height:'60px',borderRadius:'8px',bottom:'10px',bo:'none',cursor:'pointer', background:'#20484F',color:'white', position:'relative', top:'-721px', left:'1257px'}}>Get Started</button>
+
       </div>
 
       <div style={{width:'1480px', height:'509px', margin:'auto', background:'#FAFAFA'}}>

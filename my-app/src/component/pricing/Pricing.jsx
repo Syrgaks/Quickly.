@@ -1,6 +1,7 @@
 import React from 'react'
 import voto from '../../assets/Divider.png'
 import voto1 from '../../assets/Frame14.svg'
+import voto2 from '../../assets/Pricing.svg'
 import '../../component/pricing/pricing.css'
 
 
@@ -104,11 +105,20 @@ export default function Pricing() {
                  <img src={voto} width={1480} style={{transform:'rotate(180deg)'}}/>
       </div>
 
-      <div style={{width:'1480px', height:'421px', margin:'auto', background:'#FAFAFA'}}>
+      <div style={{width:'1480px', height:'1341px', margin:'auto', position:'relative'}}>
+             <img src={voto2} width={1480}/>
+             <button className='btnp' style={{width:'171px',height:'42px',borderRadius:'8px',bottom:'10px',bo:'none',cursor:'pointer', background:'#ffffff', color:'black', position:'relative', top:'-125px', left:'835px'}}>Get Started</button>
+             <button className='btnp' style={{width:'171px',height:'42px',borderRadius:'8px',bottom:'10px',bo:'none',cursor:'pointer', background:'#20484F', color:'white', position:'relative', top:'-125px', left:'875px'}}>Get Started</button>
+             <button className='btnp' style={{width:'171px',height:'42px',borderRadius:'8px',bottom:'10px',bo:'none',cursor:'pointer', background:'#20484F', color:'white', position:'relative', top:'-125px', left:'915px'}}>Get Started</button>
+            </div >
+
+      <div style={{width:'1480px', height:'421px', margin:'auto', background:'#ffffff'}}>
               <h5 style={{fontSize:'18px', fontWeight:'700', color:'#20484F', position:'relative', top:'68px', left:'587px'}}>Stop wasting time, start saving it</h5>
               <h1 style={{fontSize:'50px', lineHeight:'60px', fontWeight:'700', position:'relative', top:'119px', left:'316px'}} >Sign up for your free trial, with the <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; world’s best product tool</h1>
               <button className='button'style={{width:'190px', height:'58px', position:'relative', top:'93px', left:'635px'}}>Start your trial</button>
              </div>
+
+           
  </div>
      
   )

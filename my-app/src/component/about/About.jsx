@@ -18,6 +18,7 @@ import foto7 from '../../assets/Image.svg'
 import foto8 from '../../assets/Decoration.svg'
 import foto9 from '../../assets/Frame14.svg'
 import Blog from '../blog/Blog'; // Путь должен быть правильным
+import { Link } from "react-router-dom";
 
 
 
@@ -80,7 +81,9 @@ export default function About() {
             I want to fly like an angel flare on a ten feet snare I want to <br /> dance until the sun comes up I want to fight your cousin.
           </p>
 
-          <button className='signUp-btn'style={{width:'136px', height:'58px'}}>Sign Up</button>
+          <button className="signUp-btn" style={{ width: "136px", height: "58px" }}>
+         <Link to="/signup" style={{ textDecoration: "none", color: "inherit" }}>Sign Up</Link>
+        </button>
         </div>
 
         <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
@@ -142,7 +145,7 @@ export default function About() {
       <Blog text="Christian Heart" col="UX Writing Lead" image={foto6} />  
       <Blog text="Tommy Wisby" col="Chief of Cutlery" image={foto2} />  
       <Blog text="Teddy Pdergrass" col="Legendary Song Writer" image={foto3} />
-      <button className='signUp-btn' style={{ width:'243px', height:'58px', margin:'auto', marginTop:'40px'}}>See open vacancies</button>
+       <button className='signUp-btn' style={{ width:'243px', height:'58px', margin:'auto', marginTop:'40px'}}>See open vacancies</button>
       </div>
       </div>
 

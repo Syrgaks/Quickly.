@@ -6,7 +6,7 @@ import Features from './component/features/Features'
 import OurBlog from './component/ourBlog/OurBlog'
 import Pricing from './component/pricing/Pricing'
 import SignUp from './component/signUp/SignUp'
-import Login from './component/login/LogIn'
+import Login from './component/login/LogIn.jsx'
 import {Route, Routes} from 'react-router-dom'
 import Footer from './component/footer/Footer'
 
@@ -27,8 +27,8 @@ export default function App() {
       <Route path='featuresPage' element={<Features/>} />
       <Route path='ourPage' element={<OurBlog/>} />
       <Route path='pricingPage' element={<Pricing/>} />
-      <Route  element={<SignUp/>} />
-      <Route  element={<Login/>} />
+      <Route path="/signup" element={<SignUp />} />
+      <Route path="/login" element={<Login />} />
 
       </Routes>
       <Footer/>

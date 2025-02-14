@@ -27,72 +27,61 @@ function Header() {
       </nav> 
        
        <div>
-        <a href="../signUp/SignUp.jsx"> <button
-  
-          style={{
-            backgroundColor: "#AEE7E8",
-            color: "#2C4E50",
-            border: "none",
-            borderRadius: "12px",
-            padding: "10px 20px",
-            fontSize: "16px",
-            fontWeight: "bold",
-            cursor: "pointer",
-            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-            transition: "all 0.3s ease-in-out",
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "#89D5D7";
-            e.target.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.2)";
-            e.target.style.transform = "scale(1.05)";
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.backgroundColor = "#AEE7E8";
-            e.target.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
-            e.target.style.transform = "scale(1)";
-          }}>
-      Sign up
-</button>
-
-   </a>
-      
-     <a href="../login/LogIn.jsx"><span
-  className="spanbtn"
-  style={{
-    color: "#FFFFFF",
-    fontSize: "16px",
-    fontWeight: "bold",
-    cursor: "pointer",
-    marginLeft: "20px",
-    position: "relative",
-    display: "inline-block",
-    transition: "color 0.3s ease-in-out, transform 0.3s ease-in-out",
-  }}
-  onMouseEnter={(e) => {
-    e.target.style.color = "#AEE7E8";
-    e.target.style.transform = "scale(1.1)";
-  }}
-  onMouseLeave={(e) => {
-    e.target.style.color = "#FFFFFF";
-    e.target.style.transform = "scale(1)";
-  }}
->
-  Log In
-  <span
+       <Link to="/signup">
+  <button
     style={{
-      position: "absolute",
-      left: "0",
-      bottom: "-3px",
-      width: "100%",
-      height: "2px",
       backgroundColor: "#AEE7E8",
-      transform: "scaleX(0)",
-      transition: "transform 0.3s ease-in-out",
+      color: "#2C4E50",
+      border: "none",
+      borderRadius: "12px",
+      padding: "10px 20px",
+      fontSize: "16px",
+      fontWeight: "bold",
+      cursor: "pointer",
+      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+      transition: "all 0.3s ease-in-out",
     }}
-    className="underline"
-  ></span>
-</span></a>
-       
+    onMouseEnter={(e) => {
+      e.target.style.backgroundColor = "#89D5D7";
+      e.target.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.2)";
+      e.target.style.transform = "scale(1.05)";
+    }}
+    onMouseLeave={(e) => {
+      e.target.style.backgroundColor = "#AEE7E8";
+      e.target.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
+      e.target.style.transform = "scale(1)";
+    }}
+  >
+    Sign up
+  </button>
+</Link>
+
+<Link to="/login">
+  <span
+    className="spanbtn"
+    style={{
+      color: "#FFFFFF",
+      fontSize: "16px",
+      fontWeight: "bold",
+      cursor: "pointer",
+      marginLeft: "20px",
+      position: "relative",
+      display: "inline-block",
+      transition: "color 0.3s ease-in-out, transform 0.3s ease-in-out",
+    }}
+    onMouseEnter={(e) => {
+      e.target.style.color = "#AEE7E8";
+      e.target.style.transform = "scale(1.1)";
+    }}
+    onMouseLeave={(e) => {
+      e.target.style.color = "#FFFFFF";
+      e.target.style.transform = "scale(1)";
+    }}
+  >
+    Log In
+  </span>
+</Link>
+
 
         </div>
     </div> 
