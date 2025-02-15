@@ -23,6 +23,7 @@ import topo13 from '../../assets/5.svg'
 import topo14 from '../../assets/FeaturesBlocks.svg'
 import topo15 from '../../assets/Dec.svg'
 import topo16 from '../../assets/“.svg'
+import { Link } from 'react-router-dom'
 
 
 
@@ -41,8 +42,8 @@ export default function Products() {
          
         <h4 style={{color:'#072125', lineHeight:'36px', fontSize:'26px', fontWeight: '400', position:'relative', top:'300px', left:'139px'}}>With Quickly, you can get more productive <br />
         work done in far less time than ever before.</h4>
-        <button className='button' style={{position:'relative', top:'-210px', left:'139px', width:'136px', height:'58px',}}>Sign Up</button>
-        <button className='button' style={{position:'relative', top:'-210px', left:'149px', width:'168px', height:'58px', borderRadius:'8px', background:'#FFFFFF', color:'black'}}>Learn more</button>
+        <Link to='/signup'><button className='button' style={{position:'relative', top:'-210px', left:'139px', width:'136px', height:'58px',}}>Sign Up</button></Link>
+        <a href="#learn"><button onclick="scrollToSection()" className='button' style={{position:'relative', top:'-210px', left:'149px', width:'168px', height:'58px', borderRadius:'8px', background:'#FFFFFF', color:'black'}}>Learn more</button></a>
         <img src={foto} style={{position:'relative', top:'-310px', left:'50px'}}/>
         
       
@@ -57,7 +58,7 @@ export default function Products() {
 
       </div>
      
-     <div style={{width:'1480px', height:'765px', margin:'auto', background:'#FAFAFA'}}>
+     <div id='learn' style={{width:'1480px', height:'765px', margin:'auto', background:'#FAFAFA'}}>
       <h3 style={{fontWeight:'700', fontSize:'32px', color:'#072125', position:'relative', top:'119px', left:'120px'}}>The source of truth for all of your <br />
         product decisions</h3>
 
@@ -108,7 +109,7 @@ export default function Products() {
             <img src={topo7} width={1480} style={{transform:'rotate(180deg)'}}/>
           </div>
 
-     <div style={{width:'1480px', height:'753px', margin:'auto', background:'#FAFAFA',}}>
+     <div  style={{ width:'1480px', height:'753px', margin:'auto', background:'#FAFAFA',}}>
      <h3 style={{fontWeight:'700', fontSize:'32px', color:'#072125', position:'relative', left:'120px', top:'71px'}}>Our customers keep talking</h3>
      <p style={{fontSize:'18px',fontWeight:'400', color:'#072125', position:'relative', left:'120px', top:'87px'}}>Listen to what they say about our product offering right here</p>
      <button className='button' style={{width:'190px', height:'58px', position:'relative', left:'1130px', top:'-40px'}}>Find out more</button>
@@ -138,6 +139,8 @@ export default function Products() {
      
      <img src={topo15} style={{position:'relative', left:'1290px', top:'-996px'}}/>  
      </div>
+
+  
 
      <div style={{width:'1480px', height:'421px', margin:'auto', background:'#FFFFFF'}}>
       <h5 style={{fontSize:'18px', fontWeight:'700', color:'#20484F', position:'relative', top:'68px', left:'587px'}}>Stop wasting time, start saving it</h5>
