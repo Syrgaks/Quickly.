@@ -28,6 +28,8 @@
     font-weight: 700;
     margin-bottom: 10px;
     color: #b8e4da;
+    position: relative;
+    right: 80px;
 }
 
 .price {
@@ -37,6 +39,7 @@
     color: #333;
     position: relative;
     top: -60px;
+    right: 60px;
 }
 
 .description {
