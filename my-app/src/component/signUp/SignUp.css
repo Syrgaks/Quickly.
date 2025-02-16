@@ -51,7 +51,7 @@
   /* Кнопка */
   .signup-button {
     width: 100%;
-    background-color: #55a8b9;
+    background-color: #24545e;
     color: white;
     padding: 0.5rem;
     border: none;
@@ -61,7 +61,7 @@
   }
   
   .signup-button:hover {
-    background-color: #26626d;
+    background-color: #3e98a8;
   }
   
   /* Подпись под формой */
